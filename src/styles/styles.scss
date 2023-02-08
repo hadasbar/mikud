@@ -1,0 +1,27 @@
+//setup
+@import 'setup/variables.scss';
+@import 'setup/typography.scss';
+
+// basics
+@import 'basics/helpers.scss';
+@import 'basics/base.scss';
+
+// components
+@import 'cmps/header.scss';
+@import 'cmps/footer.scss';
+@import 'cmps/home/open.scss';
+@import 'cmps/home/offers.scss';
+@import 'cmps/home/aboutUs.scss';
+@import 'cmps/home/learningTypes.scss';
+@import 'cmps/home/reviews.scss';
+
+
+// views
+@import 'views/home.scss';
+@import 'views/contact-us.scss';
+
+
+// ICONS
+// https://icons8.com/icons/set/group
+// https://icons8.com/icons/set/user
+// https://icons8.com/icons/set/vedio-call

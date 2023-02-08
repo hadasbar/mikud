@@ -1,0 +1,33 @@
+.home-open {
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-items: center;
+
+  .home-svg {
+    width: 60%;
+    transform: scaleX(-1);
+  }
+  .home-txt {
+    font-family: gezer;
+    width: 40%;
+    text-align: right;
+    direction: rtl;
+    // transform: translate(-30%, 0);
+
+    .title2 {
+      font-weight: 900;
+      font-size: 1.5rem;
+      color: $clr1;
+      line-height: 5rem;
+    }
+    .title3 {
+      font-weight: 900;
+      font-size: 4rem;
+      color: $clr1;
+      line-height: 4rem;
+    }
+    .btn {
+      background-color: $clr6;
+    }
+  }
+}
