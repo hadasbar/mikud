@@ -5,6 +5,7 @@
     <offers />
 
     <aboutUs />
+    <ourWays />
 
     <learningTypes />
 
@@ -17,9 +18,10 @@ import offers from '../components/home/offers.vue'
 import aboutUs from '../components/home/about.vue'
 import learningTypes from '../components/home/learning-types.vue'
 import reviews from '../components/home/reviews.vue'
+import ourWays from '../components/home/our-ways.vue'
 
 export default {
-  components: { open, offers, aboutUs, learningTypes, reviews},
+  components: { open, offers, aboutUs, learningTypes, reviews, ourWays },
   data: () => {
     return {}
   },
@@ -28,6 +30,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

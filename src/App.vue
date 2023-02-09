@@ -3,12 +3,13 @@
     <RouterLink class="logo" to="/">
       <img class="logo" src="../../src/styles/imgs/logo.png" alt="" />
     </RouterLink>
-    <appHeader>
-      <!-- :class="[checkHomeRoute ? 'header-transparent' : 'header-white', checkHomeRoute && isHeaderWhite ? 'bg-white' : '']" -->
-    </appHeader>
+    <appHeader> </appHeader>
 
     <RouterView />
     <appFooter></appFooter>
+    <appContact :class="[isHeaderWhite ? 'display-contact' : 'dont-display-contact']"></appContact>
+    <!-- 
+        :class="[checkHomeRoute ? 'header-transparent' : 'header-white', checkHomeRoute && isHeaderWhite ? 'bg-white' : '']" -->
   </section>
 </template>
 
@@ -16,11 +17,13 @@
 import { RouterLink, RouterView } from 'vue-router'
 import appHeader from './components/header.vue'
 import appFooter from './components/footer.vue'
+import appContact from './components/app-contact.vue'
 
 export default {
   components: {
     appHeader,
     appFooter,
+    appContact,
   },
   data: () => {
     return {
@@ -57,6 +60,16 @@ export default {
   position: fixed;
   top: 0;
   right: 0;
+}
+
+.display-contact {
+  /* bottom: 100vh; */
+  display: block;
+}
+
+.dont-display-contact {
+  /* bottom: 0; */
+  display: none;
 }
 /* .f {
   height: auto;
