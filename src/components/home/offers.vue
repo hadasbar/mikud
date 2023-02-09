@@ -2,7 +2,7 @@
   <div class="offer-layout">
     <div class="main-layout offer-container">
       <h1>מה אנחנו מציעים?</h1>
-      <h4>אנו במיקוד מאמינים בהשגת פועלים מתחושת שליחות תוך יצירת בלה בלה ממש רציני</h4>
+      <!-- <h4>אנו במיקוד מאמינים בהשגת פועלים מתחושת שליחות תוך יצירת בלה בלה ממש רציני</h4> -->
       <div class="offer-list">
         <div v-for="offer in offers" key="offers.indexOf(offer)" class="offer">
           <img class="offer-gif" :src="offer.icon" alt="" />

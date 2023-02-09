@@ -2,8 +2,8 @@
   <main class="learning-types main-layout">
     <div>
       <div class="learning-titles">
-        <h1>איך אנחנו מלמדים?</h1>
-        <h6 class="sub-title">כל המורים עוברים הסמכה אצלינו במרכז</h6>
+        <h1>מה תמצאו אצלנו?</h1>
+        <h6 class="sub-title"></h6>
       </div>
 
       <div class="learning-items">

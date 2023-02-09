@@ -1,0 +1,34 @@
+.contacts-container {
+  //   position: absolute;
+  //   bottom: 0;
+  height: 15vh;
+  position: fixed;
+  transition-timing-function: ease;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  background: rgb(65, 0, 114);
+  background: linear-gradient(90deg, rgba(65, 0, 114, 1) 37%, rgba(64, 0, 116, 0.7654412106639531) 67%, rgba(255, 132, 0, 1) 100%);
+
+  .contact-title {
+    margin-top: 20px;
+    font-family: gezer;
+    color: rgb(255, 255, 255);
+  }
+
+  input {
+    border-radius: 60px;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 10px;
+    text-align: right;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  input::placeholder {
+    color: $clr5;
+  }
+}
