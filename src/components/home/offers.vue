@@ -20,35 +20,35 @@ export default {
     return {
       offers: [
         {
-          icon: '../../public/gifs/Reading-Book.gif',
+          icon: 'gifs/Reading-Book.gif',
 
           title: 'ביהס לעברית',
           description: ' ביה"ס לעברית מציע מגוון רחב של שיעורים המלמדים בלה בלה',
         },
         {
-          icon: '../../public/gifs/Creative-Thinking.gif',
+          icon: 'gifs/Creative-Thinking.gif',
           title: 'סטודנטים',
           description: 'אנחנו כאן להציע מרתונים לפני המבחנים, ושיעורים פרטיים במהלך הסמסטר',
         },
         {
-          icon: '../../public/gifs/Web-Browsing.gif',
+          icon: 'gifs/Web-Browsing.gif',
 
           title: 'ביה"ס לאנגלית',
           description: 'ביה"ס לאנגלית מציע מגוון  שיעורי אנגלית לשיפור הדיבור  והכתיבה',
         },
         {
-          icon: '../../public/gifs/Form-Filling.gif',
+          icon: 'gifs/Form-Filling.gif',
 
           title: 'שיעורים פרטיים',
           description: 'צוות מורים מקצועיים המכינים מערכי שיעור מותאמים לרמת התלמיד ותכנית התקדמות',
         },
         {
-          icon: '../../public/gifs/Online-Study.gif',
+          icon: 'gifs/Online-Study.gif',
           title: 'מרכז בגבעת שמואל',
           description: 'המון דברים ממש כיפיים  ולימודיים מתרחשים פה',
         },
         {
-          icon: '../../public/gifs/Telescope.gif',
+          icon: 'gifs/Telescope.gif',
 
           title: 'תוכנית גפן',
           description: 'אני כאן כל הזמן',
