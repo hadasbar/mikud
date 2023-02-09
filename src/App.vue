@@ -1,7 +1,7 @@
 <template>
   <section class="f">
     <RouterLink class="logo" to="/">
-      <img class="logo" src="../../src/styles/imgs/logo.png" alt="" />
+      <img class="logo" src="../src/styles/imgs/logo.png" alt="" />
     </RouterLink>
     <appHeader>
       <!-- :class="[checkHomeRoute ? 'header-transparent' : 'header-white', checkHomeRoute && isHeaderWhite ? 'bg-white' : '']" -->
